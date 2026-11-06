@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Keluarga</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef3ff;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #3157a4;
+        }
+
+        .foto-keluarga {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .foto-keluarga img {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .deskripsi {
+            text-align: center;
+            color: #64748b;
+        }
+
+        details {
+            background: white;
+            margin: 15px 0;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        summary {
+            background: #dce8ff;
+            padding: 15px;
+            color: #244786;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .profil {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px;
+        }
+
+        .profil img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .informasi p {
+            margin: 8px 0;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 25px;
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        @media (max-width: 480px) {
+            .profil {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Profil Keluarga</h1>
+        <p style="text-align:center;">
+    <a href="../web.html">Kembali ke Website Utama</a>
+</p>
+
+        <div class="foto-keluarga">
+            <img src="keluarga.png" alt="Foto Keluarga">
+        </div>
+
+        <p class="deskripsi">Kenali anggota keluarga kami</p>
+
+        <details>
+            <summary>Ayah</summary>
+            <div class="profil">
+                <img src="ayah.png" alt="Foto Ayah">
+                <div class="informasi">
+                    <p><b>Nama:</b> Abdul</p>
+                    <p><b>Pekerjaan:</b> CEO</p>
+                    <p><b>Hobi:</b> Membaca, Berkebun</p>
+                </div>
+            </div>
+        </details>
+
+        <details>
+            <summary>Ibu</summary>
+            <div class="profil">
+                <img src="ibu.png" alt="Foto Ibu">
+                <div class="informasi">
+                    <p><b>Nama:</b> Jaenab</p>
+                    <p><b>Pekerjaan:</b> Ibu Rumah Tangga</p>
+                    <p><b>Hobi:</b> Memasak, Mendengarkan Musik</p>
+                </div>
+            </div>
+        </details>
+
+        <details>
+            <summary>Kakak</summary>
+            <div class="profil">
+                <img src="saya.png" alt="Foto Kakak">
+                <div class="informasi">
+                    <p><b>Nama:</b> Muhamad Ainur Rofiq</p>
+                    <p><b>Status:</b> Mahasiswa</p>
+                    <p><b>Hobi:</b> Olahraga, Memancing</p>
+                </div>
+            </div>
+        </details>
+
+        <details>
+            <summary>Adik</summary>
+            <div class="profil">
+                <img src="adik.png" alt="Foto Adik">
+                <div class="informasi">
+                    <p><b>Nama:</b> Siti</p>
+                    <p><b>Status:</b> Pelajar</p>
+                    <p><b>Hobi:</b> Bermain Game, Menggambar</p>
+                </div>
+            </div>
+        </details>
+
+        <footer>
+            &copy; 2026 Profil Keluarga
+        </footer>
+
+    </div>
+
+</body>
+</html>
