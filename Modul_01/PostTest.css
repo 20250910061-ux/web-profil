@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF5E6;
+    margin: 20px;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: darkred;
+}
+
+nav {
+    background-color: brown;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    width: 100%;
+}
+
+th {
+    background-color: brown;
+    color: white;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: brown;
+    color: white;
+}

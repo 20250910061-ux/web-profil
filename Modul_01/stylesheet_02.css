@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF0F5;
+    margin: 30px;
+    color: #4A2C2A;
+}
+
+font[size="7"] {
+    color: #C2185B;
+    font-weight: bold;
+}
+
+font[size="5"] {
+    color: #795548;
+}
+
+font[size="3"] {
+    color: #6D4C41;
+}
+
+hr {
+    border: 2px solid #E91E63;
+}
+
+h1 {
+    color: #AD1457;
+    text-align: center;
+}
+
+dt {
+    color: #8D4E85;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+dd {
+    line-height: 1.6;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #5D4037;
+}

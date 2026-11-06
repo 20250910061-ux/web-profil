@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF8E7;
+    margin: 25px;
+    color: black;
+}
+
+font[size="7"] {
+    color: green;
+    font-weight: bold;
+}
+
+font[size="5"] {
+    color: brown;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+}
+
+dt {
+    color: brown;
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th {
+    background-color: green;
+    color: white;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+caption {
+    color: green;
+    font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
