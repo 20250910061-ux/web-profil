@@ -76,5 +76,18 @@ padding: 18px;
 header h2 {
     font-size: 24px;
 }
+}
+.galeri-tugas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 25px auto;
+}
 
+.galeri-tugas img {
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
